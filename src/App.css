@@ -7,3 +7,41 @@ html {
     background-color: #202020;
     font-family: "Nunito Sans", sans-serif;
 }
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #202020;
+    outline: 3px #202020 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+  }
+  
+  .button:hover .text {
+    color: #F5F5F5;
+  }
+  
+  .button:hover svg path {
+    fill: #F5F5F5;
+  }
