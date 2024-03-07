@@ -50,7 +50,14 @@ export default function Hero() {
                 <img src={derechaLogo} alt="Imagen prisma abstracto" />
             </section>
 
+            <div className="scrolldown">
+                <div className="chevrons">
+                    <div className="chevrondown"></div>
+                    <div className="chevrondown"></div>
+                </div>
+            </div>
 
-        </div >
+
+        </div>
     )
 }
