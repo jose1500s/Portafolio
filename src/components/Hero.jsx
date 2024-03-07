@@ -20,12 +20,16 @@ export default function Hero() {
 
             <Navbar />
 
-            <section className='absolute bottom-1/3 z-50 w-5/12 right-0 left-0 m-auto h-1/2 flex flex-col justify-center items-center gap-4 '>
+            <section className='absolute bottom-1/3 z-50 w-5/12 right-0 left-0 m-auto h-1/2 flex flex-col justify-center items-center gap-4 
+            max-[640px]:w-full max-[640px]:p-4 
+            '>
                 <div className='flex justify-center items-center gap-5'>
                     <img
                         src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
-                        className="aspect-square w-24 h-[80%] rounded-lg object-cover"
+                        className="aspect-square w-24 h-[80%] rounded-lg object-cover
+                        max-[640px]:w-20 max-[640px]:h-[50%]
+                        "
                     />
 
                     <div className=''>
@@ -43,11 +47,11 @@ export default function Hero() {
                 </div>
             </section>
 
-            <section className='absolute  bottom-0 '>
-                <img src={izquierdaLogo} alt="Imagen prisma abstracto" />
+            <section className='absolute  bottom-0 max-[640px]:w-[60%]'>
+                <img src={izquierdaLogo} alt="Imagen prisma abstracto" className='w-full h-full'/>
             </section>
             <section className='absolute right-0  bottom-0 '>
-                <img src={derechaLogo} alt="Imagen prisma abstracto" />
+                <img src={derechaLogo} alt="Imagen prisma abstracto"  />
             </section>
 
             <div className="scrolldown">

@@ -1,17 +1,17 @@
 export default function Experience() {
     return (
-        <main>
-            <div className="absolute h-full w-full bg-[#151516]">
+        <main >
+            <div className="absolute h-screen w-full bg-[#151516]">
                 <div className="absolute opacity-10 bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]">
                 </div>
 
             </div>
-            <section className="absolute mt-16 w-5/12 right-0 left-0 m-auto z-10">
+            <section className="absolute mt-16 w-5/12 max-[640px]:w-3/4 right-0 left-0 m-auto z-10">
                 <h2 className="flex gap-3 mb-8 text-4xl text-[#F5F5F5] font-bold">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="none" stroke="#F5F5F5" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M29 17v11H3V17M2 8h28v8s-6 4-14 4s-14-4-14-4zm14 14v-4m4-10s0-4-4-4s-4 4-4 4"></path></svg>
                     Experiencia
                 </h2>
-                <ol className="relative border-s border-neutral-400">
+                <ol className="relative border-s border-neutral-400 max-h-full">
                     <li className="mb-16 ms-4">
                         <div className="absolute size-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-neutral-50">
                         </div>
