@@ -1,7 +1,7 @@
 export default function Experience() {
     return (
         <main>
-            <section className="mt-16 py-4 w-5/12 max-[740px]:w-3/4 right-0 left-0 m-auto">
+            <section className="mt-5 py-4 w-5/12 max-[740px]:w-3/4 right-0 left-0 m-auto">
                 <h2 className="flex gap-3 mb-8 text-4xl text-[#F5F5F5] font-bold">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="none" stroke="#F5F5F5" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M29 17v11H3V17M2 8h28v8s-6 4-14 4s-14-4-14-4zm14 14v-4m4-10s0-4-4-4s-4 4-4 4"></path></svg>
                     Experiencia
