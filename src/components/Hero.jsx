@@ -39,7 +39,8 @@ export default function Hero() {
             <section id='about' className='px-4 w-full min-h-screen relative  flex flex-col justify-center items-center gap-4 
             max-[740px]:w-full
             '>
-                <div className='flex justify-center items-center gap-5 
+
+                <div className='animate-slide-out-top flex justify-center items-center gap-5 
                 max-[740px]:gap-3 max-[740px]:flex-col  max-[740px]:relative
                 '>
                     <div className='max-[740px]:absolute right-[9%] top-[-2.25rem]'>
@@ -60,7 +61,8 @@ export default function Hero() {
                         </p>
                     </div>
                 </div>
-                <div className='flex items-center justify-center flex-wrap gap-5 mt-4'>
+
+                <div className='animate-blurred-fade-in animate-delay-400 flex items-center justify-center flex-wrap gap-5 mt-4'>
                     <Pill text="Github" icon={logoGithub} link="https://github.com/jose1500s" mail="" />
                     <Pill text="Linkedin" icon={linkedinLogo} link="https://www.linkedin.com/in/jos%C3%A9-antonio-pati%C3%B1o-palomares-896b3b2a0/" mail="" />
                     <a href='cv.pdf' download="José Antonio Patiño CV" className='font-extrabold'>
