@@ -11,9 +11,9 @@ export default function Hero() {
                 <img src={bgLuz} alt="background ligth" className='w-full h-full object-fill' />
             </div>
 
-            <nav className="z-10 max-[740px]:w-[80%] max-[740px]:text-base absolute w-[40%] h-10 right-0 left-0 mt-5  ml-auto mr-auto text-[#F5F5F5] text-lg
+            <nav className="z-10 max-[740px]:w-[90%]  max-[740px]:text-sm absolute w-[40%] h-10 right-0 left-0 mt-5  ml-auto mr-auto text-[#F5F5F5] text-lg
          bg-[#1D1F20] rounded-lg bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-[58%] border border-white border-opacity-25" id="nav">
-                <div className="w-full h-full flex justify-center items-center gap-7">
+                <div className="w-full h-full flex justify-center items-center gap-7 max-[740px]:gap-5">
                     <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="">Sobre mí</a>
                     <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="">Experiencia</a>
                     <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="">Proyectos</a>
