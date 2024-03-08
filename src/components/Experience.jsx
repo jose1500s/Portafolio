@@ -1,13 +1,13 @@
 export default function Experience() {
     return (
         <main>
-            <section className=" mt-16 w-5/12 max-[640px]:w-3/4 right-0 left-0 m-auto">
+            <section className="mt-16 py-4 w-5/12 max-[740px]:w-3/4 right-0 left-0 m-auto">
                 <h2 className="flex gap-3 mb-8 text-4xl text-[#F5F5F5] font-bold">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="none" stroke="#F5F5F5" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M29 17v11H3V17M2 8h28v8s-6 4-14 4s-14-4-14-4zm14 14v-4m4-10s0-4-4-4s-4 4-4 4"></path></svg>
                     Experiencia
                 </h2>
-                <ol className="relative border-s border-neutral-400 max-h-full">
-                    <li className="mb-16 ms-4">
+                <ol className="border-s border-neutral-400 max-h-full">
+                    <li className=" ms-4">
                         <div className=" size-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-neutral-50">
                         </div>
                         <article>
@@ -61,7 +61,7 @@ export default function Experience() {
                         </article>
                     </li>
 
-                    <li className="mb-16 ms-4">
+                    <li className="ms-4">
                         <div className=" size-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-neutral-50">
                         </div>
                         <article>

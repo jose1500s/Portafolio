@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
+#root, html, body{
   min-height: 100dvh;
 }
 
@@ -12,13 +12,14 @@
     align-items: center;
     padding: 10px 15px;
     gap: 15px;
-    background-color: #202020;
-    outline: 3px #202020 solid;
+    background-color: #313030;
+    outline: 2px #313030 solid;
     outline-offset: -3px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     transition: 400ms;
+    width: 135px;
   }
   
   .button .text {
@@ -33,7 +34,7 @@
   }
   
   .button:hover {
-    background-color: transparent;
+    background-color: #202020;
   }
   
   .button:hover .text {
