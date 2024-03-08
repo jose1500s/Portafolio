@@ -7,8 +7,8 @@ export default function Experience() {
                     Experiencia
                 </h2>
                 <ol className="border-s border-neutral-400 max-h-full">
-                    <li className=" ms-4">
-                        <div className=" size-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-neutral-50">
+                    <li className="relative mb-16 ms-4">
+                        <div className="absolute left-[-22px] size-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-neutral-50">
                         </div>
                         <article>
                             <time className="mb-2 text-sm text-[#F5F5F5]">Junio 2023 - Nov 2023</time>
@@ -61,8 +61,8 @@ export default function Experience() {
                         </article>
                     </li>
 
-                    <li className="ms-4">
-                        <div className=" size-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-neutral-50">
+                    <li className="ms-4 relative">
+                        <div className="absolute left-[-22px] size-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-neutral-50">
                         </div>
                         <article>
                             <time className="mb-2 text-sm text-[#F5F5F5]">Agosto 2022 - Mayo 2023</time>
