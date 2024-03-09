@@ -43,7 +43,7 @@ export default function Hero() {
                 <div className='animate-slide-out-top flex justify-center items-center gap-5 
                 max-[740px]:gap-3 max-[740px]:flex-col  max-[740px]:relative
                 '>
-                    <div className='max-[740px]:absolute right-[9%] top-[-2.25rem]'>
+                    <div className='max-[740px]:absolute right-[7%] top-[-2.25rem]'>
                         <img
                             src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt="Antonio Patiño foto de perfil"
