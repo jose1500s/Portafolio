@@ -4,6 +4,7 @@ import cvLogo from '../assets/CVLogo.svg'
 import bgLuz from '../assets/bgLuz.png'
 import Pill from '../components/Pill.jsx'
 import LogosSlider from './LogoSlider.jsx'
+import fotoPerfil from '../assets/user.png'
 import {
     Laravel,
     ReactLogo,
@@ -45,7 +46,7 @@ export default function Hero() {
                 '>
                     <div className='max-[740px]:absolute right-[7%] top-[-2.25rem]'>
                         <img
-                            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2680&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src={fotoPerfil}
                             alt="Antonio Patiño foto de perfil"
                             className="aspect-square w-24 h-[80%] rounded-lg object-cover
                         max-[740px]:w-20 max-[740px]:h-[50%] 
