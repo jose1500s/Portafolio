@@ -15,6 +15,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
     <Hero />
     <Experience />
+    <footer>
+      <div className="w-full h-20 bg-[#1D1F20] flex justify-center items-center">
+        <p className="text-[#F5F5F5] text-lg">Antonio Patiño - 2024</p>
+      </div>
+    </footer>
 
   </React.StrictMode>,
 )
