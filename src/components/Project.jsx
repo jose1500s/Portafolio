@@ -1,13 +1,13 @@
 export default function Project({ projects }) {
 
-    const { alt, title, subtitle, text, src, href } = projects
+    const { alt, subtitle, text, src, href } = projects
 
     return (
         <div className="rounded-md">
             <a href={href} target="_blank" className="group relative block bg-transparent h-full">
                 <img
                     alt={alt}
-                    src={`/assets/${src}`}
+                    src={src}
                     className="absolute inset-0 h-full w-full object-cover opacity-60 transition-opacity group-hover:opacity-50"
                 />
 
