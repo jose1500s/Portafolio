@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './App.css'
 import Hero from './components/Hero'
 import Experience from './components/Experience'
+import Projects from './components/Projects'
 import '@fontsource/nunito-sans';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -14,7 +15,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </div>
 
     <Hero />
-    <Experience />
+
+    <main>
+      <Experience />
+      <Projects />
+    </main>
+    
     <footer>
       <div className="w-full h-20 bg-[#1D1F20] flex justify-center items-center">
         <p className="text-[#F5F5F5] text-lg">Antonio Patiño - 2024</p>
