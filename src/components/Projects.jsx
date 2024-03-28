@@ -42,7 +42,7 @@ export default function Projects() {
                 Proyectos recientes... 
                 </span>
             </div>
-            <section className="container-grid w-5/12 max-[740px]:w-3/4 h-[550px] mx-auto mt-14 mb-10">
+            <section className="container-grid w-5/12 max-[740px]:w-3/4  mx-auto mt-14 mb-10">
                 {projects.map((project => (
                     <Project
                         key={project.id}
