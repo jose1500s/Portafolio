@@ -7,7 +7,7 @@ export default function Project({ projects }) {
             <a href={href} target="_blank" className="group relative block bg-transparent h-full">
                 <img
                     alt={alt}
-                    src={`/src/assets/${src}`}
+                    src={`/assets/${src}`}
                     className="absolute inset-0 h-full w-full object-cover opacity-60 transition-opacity group-hover:opacity-50"
                 />
 
