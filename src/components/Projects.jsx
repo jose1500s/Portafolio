@@ -1,11 +1,15 @@
 import Project from "./Project"
+import cgapp from '../assets/cgapp.png'
+import wworld from '../assets/wworld.png'
+import crypto from '../assets/crypto.png'
+
 export default function Projects() {
 
     const projects = [
         {
             title: 'Adm. Gastos',
             subtitle: 'Administra tus gastos',
-            src: 'cgapp.png',
+            src: cgapp,
             alt: 'Imagen de pagina web administradora de gastos',
             text: 'Aplicación web para administrar gastos, permite agregar, editar y eliminar gastos, además de mostrar un resumen de los mismos, usando React y TailwindCSS, renderizado condicional y manejo de estados con hooks',
             href: 'https://cgapp.netlify.app/',
@@ -14,7 +18,7 @@ export default function Projects() {
         {
             title: 'W. World',
             subtitle: 'Where in the world?',
-            src: 'wworld.png',
+            src: wworld,
             alt: 'Imagen de pagina web de geografia',
             text: 'Aplicación web para aprender geografía, consume una API de países, permite el filtrado por región y búsqueda por nombre, usando React y TailwindCSS ademas de react router dom para la navegación entre componentes',
             href: 'https://countriessearchapp.netlify.app',
@@ -23,7 +27,7 @@ export default function Projects() {
         {
             title: 'Crypto Tracker',
             subtitle: 'Rastreador de criptomonedas',
-            src: 'crypto.png',
+            src: crypto,
             alt: 'Imagen de pagina web de criptomonedas',
             text: 'Aplicación web para rastrear criptomonedas, consume una API de criptomonedas, permite ver el precio de las criptomonedas en tiempo real, usando React y TailwindCSS, además de react hooks para el manejo de estados',
             href: 'https://japp-crypto.netlify.app',
