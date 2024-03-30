@@ -227,18 +227,8 @@ body {
   }
 }
 
-.container-grid {
+#projectsContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
-}
-
-.container-grid > *:first-child {
-  grid-row: 1 / 3;
-  height: 100%;
-}
-
-.container-grid > *:first-child .text {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
