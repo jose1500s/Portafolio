@@ -21,7 +21,7 @@ export default function Hero() {
     const logos = [ReactLogo, Laravel, Js, Node, Docker, Github, MySQL, Tailwind]
 
     return (
-        <header className='w-full'>
+        <header className='w-full' id='header'>
             <div className="w-full h-full absolute z-[-1] opacity-45">
                 <img src={bgLuz} alt="background ligth" className='w-full h-full object-fill' />
             </div>
@@ -29,10 +29,10 @@ export default function Hero() {
             <nav className="z-10 max-[740px]:w-[90%]  max-[740px]:text-sm absolute w-[40%] h-10 right-0 left-0 mt-5  ml-auto mr-auto text-[#F5F5F5] text-lg
          bg-[#1D1F20] rounded-lg bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-[58%] border border-white border-opacity-25" id="nav">
                 <div className="w-full h-full flex justify-center items-center gap-7 max-[740px]:gap-4">
-                    <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="">Sobre mí</a>
-                    <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="">Experiencia</a>
-                    <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="">Proyectos</a>
-                    <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="">Contacto</a>
+                    <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="#header">Sobre mí</a>
+                    <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="#experiencia">Experiencia</a>
+                    <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="#proyectos">Proyectos</a>
+                    <a className="hover:cursor-pointer hover:text-[#71c4ef]" href="#contacto">Contacto</a>
                 </div>
             </nav>
 

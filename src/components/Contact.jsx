@@ -36,7 +36,7 @@ export default function Contact() {
 
     return (
         <>
-            <h3 className='text-4xl text-white text-center m-4'>
+            <h3 className='text-4xl text-white text-center m-4' id='contacto'>
                 Contacto
             </h3>
             <section className="flex flex-col max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 md:flex-row md:h-96 mb-10 max-[740px]:w-[90%]">

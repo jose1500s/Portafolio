@@ -240,3 +240,7 @@ body {
 #cajaMensaje {
   border:  1px solid #374151;
 }
+
+nav#nav {
+  position: fixed
+}
